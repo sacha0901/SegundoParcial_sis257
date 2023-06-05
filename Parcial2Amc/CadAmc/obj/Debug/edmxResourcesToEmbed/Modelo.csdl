@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Parcial2AmcModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Serie">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="titulo" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="sinopsis" Type="String" MaxLength="5000" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="director" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="duracion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fechaEstreno" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="registroActivo" Type="Boolean" />
+    <Property Name="usuarioRegistro" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="fechaRegistro" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityContainer Name="Parcial2AmcEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Serie" EntityType="Self.Serie" />
+    <FunctionImport Name="paSerieListar" ReturnType="Collection(Parcial2AmcModel.paSerieListar_Result)">
+      <Parameter Name="parametro" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="paSerieListar_Result">
+    <Property Type="Int32" Name="id" Nullable="false" />
+    <Property Type="String" Name="titulo" Nullable="false" MaxLength="250" />
+    <Property Type="String" Name="sinopsis" Nullable="false" MaxLength="5000" />
+    <Property Type="String" Name="director" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="duracion" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="fechaEstreno" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="true" MaxLength="100" />
+    <Property Type="DateTime" Name="fechaRegistro" Nullable="true" Precision="23" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,12 @@
+D:\Informatica4toSemestre\FundamentosDeProgramacion\SegundoParcial\Parcial2Amc\CadAmc\bin\Debug\CadAmc.dll.config
+D:\Informatica4toSemestre\FundamentosDeProgramacion\SegundoParcial\Parcial2Amc\CadAmc\bin\Debug\CadAmc.dll
+D:\Informatica4toSemestre\FundamentosDeProgramacion\SegundoParcial\Parcial2Amc\CadAmc\bin\Debug\CadAmc.pdb
+D:\Informatica4toSemestre\FundamentosDeProgramacion\SegundoParcial\Parcial2Amc\CadAmc\bin\Debug\EntityFramework.dll
+D:\Informatica4toSemestre\FundamentosDeProgramacion\SegundoParcial\Parcial2Amc\CadAmc\bin\Debug\EntityFramework.SqlServer.dll
+D:\Informatica4toSemestre\FundamentosDeProgramacion\SegundoParcial\Parcial2Amc\CadAmc\bin\Debug\EntityFramework.xml
+D:\Informatica4toSemestre\FundamentosDeProgramacion\SegundoParcial\Parcial2Amc\CadAmc\bin\Debug\EntityFramework.SqlServer.xml
+D:\Informatica4toSemestre\FundamentosDeProgramacion\SegundoParcial\Parcial2Amc\CadAmc\obj\Debug\CadAmc.csproj.AssemblyReference.cache
+D:\Informatica4toSemestre\FundamentosDeProgramacion\SegundoParcial\Parcial2Amc\CadAmc\obj\Debug\CadAmc.csproj.CoreCompileInputs.cache
+D:\Informatica4toSemestre\FundamentosDeProgramacion\SegundoParcial\Parcial2Amc\CadAmc\obj\Debug\CadAmc.csproj.CopyComplete
+D:\Informatica4toSemestre\FundamentosDeProgramacion\SegundoParcial\Parcial2Amc\CadAmc\obj\Debug\CadAmc.dll
+D:\Informatica4toSemestre\FundamentosDeProgramacion\SegundoParcial\Parcial2Amc\CadAmc\obj\Debug\CadAmc.pdb
